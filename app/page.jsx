@@ -25,14 +25,7 @@ export default function Home() {
               <circle cx="50" cy="50" r="40" stroke="black" stroke-width="2" fill="gray" />
               <text x="50%" y="50%" text-anchor="middle" alignment-baseline="middle" font-family="Arial" font-size="20" fill="black">ST</text>
             </svg>
-            {/* <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className="dark:invert"
-              width={100}
-              height={24}
-              priority
-            /> */}
+            
           </a>
         </div>
       </div>
@@ -56,17 +49,6 @@ export default function Home() {
           </h2>
           <p >
             Create an online platform for businesses to sell their products or services.
-            <div className="flex justify-center items-center">
-              <Image
-                src={Shopping}
-                alt="Shopping Logo"
-                width={100}
-                height={100}
-                priority
-              />
-            </div>
-
-            
           </p>
         </Link>
 
@@ -81,16 +63,7 @@ export default function Home() {
           </h2>
           <p >
             Develop a website that allows customers to book appointments, reservations, or services online, such as for restaurants, salons, or medical offices.
-            <div className="flex justify-center items-center">
-              <Image
-
-                src={Bookkeping}
-                alt="Shopping Logo"
-                width={100}
-                height={100}
-                priority
-              />
-            </div>
+           
 
           </p>
         </Link>
@@ -106,16 +79,7 @@ export default function Home() {
           </h2>
           <p>
             Develop a website for law firms or individual lawyers to present their services, expertise, and contact information.
-            <div className="flex justify-center items-center">
-              <Image
-
-                src={Legal}
-                alt="Legal Logo"
-                width={100}
-                height={100}
-                priority
-              />
-            </div>
+           
           </p>
         </Link>
 
@@ -130,15 +94,7 @@ export default function Home() {
           </h2>
           <p>
             Develop a website for consultants in various fields such as marketing, HR, or management to showcase expertise, case studies, and client testimonials.
-            <div className="flex justify-center items-center">
-              <Image
-                src={Consulting}
-                alt="Consulting Logo"
-                width={100}
-                height={100}
-                priority
-              />
-            </div>
+            
           </p>
         </Link>
       </div>
